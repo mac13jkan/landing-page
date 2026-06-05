@@ -1,72 +1,97 @@
 <!doctype html>
+
 <html lang="pl">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Zasada 1 - Widoczność statusu systemu</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zasada 1 - Widoczność statusu systemu</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
+
+<header>
     <h1>1. Widoczność statusu systemu</h1>
-    <p>Heurystyka Jakoba Nielsena</p>
-  </header>
+    <p>Pierwsza heurystyka Jakoba Nielsena</p>
+</header>
 
-  <main>
-    <section>
-      <h2>Visibility of system status</h2>
+<main>
 
-      <p>
-        <strong>EN:</strong> The design should always keep users informed about what is going on,
+<section>
+    <h2>Oryginalna treść (EN)</h2>
+    <p>
+        The design should always keep users informed about what is going on,
         through appropriate feedback within a reasonable amount of time.
-      </p>
+    </p>
 
-      <p>
-        <strong>PL:</strong> Projekt powinien zawsze informować użytkowników o tym, co się dzieje,
-        przez odpowiednią informację zwrotną przekazaną w rozsądnym czasie.
-      </p>
-    </section>
+```
+<h2>Tłumaczenie (PL)</h2>
+<p>
+    System powinien zawsze informować użytkowników o tym, co się dzieje,
+    przekazując odpowiednią informację zwrotną w rozsądnym czasie.
+</p>
+```
 
-    <section>
-      <h2>Przykład ze strony internetowej</h2>
+</section>
 
-      <figure>
-        <img src="https://developer.mozilla.org/mdn-social-share.cd6c4a5a.png" alt="MDN Web Docs">
-        <figcaption>
-          MDN opisuje element HTML <code>&lt;progress&gt;</code>, który pokazuje postęp wykonywanego zadania.
-          Taki pasek postępu pasuje do heurystyki, ponieważ użytkownik widzi, że system nadal działa.
-          <br>
-          Źródło:
-          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/progress" target="_blank">
-            MDN Web Docs - progress
-          </a>
-        </figcaption>
-      </figure>
-    </section>
+<section>
+    <h2>Przykład ze strony internetowej</h2>
 
-    <section>
-      <h2>Przykład z aplikacji mobilnej</h2>
+```
+<img
+    src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Progress_Bar_2.png"
+    alt="Pasek postępu">
 
-      <figure>
-        <img src="https://developer.apple.com/news/images/og/design-og.png" alt="Apple Design">
-        <figcaption>
-          Apple Human Interface Guidelines opisuje wskaźniki postępu w aplikacjach.
-          Informują one użytkownika, że aplikacja ładuje dane albo wykonuje dłuższą operację.
-          <br>
-          Źródło:
-          <a href="https://developer.apple.com/design/human-interface-guidelines/progress-indicators" target="_blank">
-            Apple Human Interface Guidelines - Progress indicators
-          </a>
-        </figcaption>
-      </figure>
-    </section>
+<p>
+    Pasek postępu pokazuje użytkownikowi, ile operacji zostało już wykonane.
+    Dzięki temu użytkownik wie, że system działa poprawnie i nie zawiesił się.
+</p>
 
-    <a class="card" href="index.html">Powrót do strony głównej</a>
-  </main>
+<p>
+    Źródło:
+    <a href="https://commons.wikimedia.org/wiki/File:Progress_Bar_2.png" target="_blank">
+        Wikimedia Commons – Progress Bar
+    </a>
+</p>
+```
 
-  <footer>
+</section>
+
+<section>
+    <h2>Przykład z aplikacji mobilnej</h2>
+
+```
+<img
+    src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif"
+    alt="Wskaźnik ładowania">
+
+<p>
+    Animowany wskaźnik ładowania informuje użytkownika,
+    że aplikacja wykonuje operację i należy chwilę poczekać.
+    Jest to przykład ciągłego informowania o stanie systemu.
+</p>
+
+<p>
+    Źródło:
+    <a href="https://commons.wikimedia.org/wiki/File:Loading_icon.gif" target="_blank">
+        Wikimedia Commons – Loading Icon
+    </a>
+</p>
+```
+
+</section>
+
+<section>
+    <a class="card" href="index.html">
+        ← Powrót do strony głównej
+    </a>
+</section>
+
+</main>
+
+<footer>
     <p>Mini-wiki o heurystykach Jakoba Nielsena</p>
-  </footer>
+</footer>
+
 </body>
 </html>
