@@ -1,1 +1,64 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zasada 5 - Zapobieganie błędom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+<header>
+  <h1>5. Zapobieganie błędom</h1>
+  <p>Piąta heurystyka Jakoba Nielsena</p>
+</header>
+
+<main>
+  <section>
+    <h2>Oryginalna treść i tłumaczenie</h2>
+    <p><strong>EN:</strong> Good error messages are important, but the best designs carefully prevent problems from occurring in the first place.</p>
+    <p><strong>PL:</strong> Dobre komunikaty błędów są ważne, ale najlepsze projekty przede wszystkim zapobiegają pojawianiu się problemów.</p>
+  </section>
+
+  <section>
+    <h2>Przykład ze strony internetowej</h2>
+    <figure>
+      <img src="img/heur5-web.png" alt="Walidacja adresu e-mail w formularzu">
+      <figcaption>
+        Formularz wykrywa niepoprawny adres e-mail przed wysłaniem danych.
+        Dzięki temu system zapobiega błędowi, zanim użytkownik przejdzie dalej.
+        <br>
+        Źródło:
+        <a href="https://docs.ultimatemember.com/article/1697-email-validation-in-registration" target="_blank">
+          Ultimate Member Docs – email validation
+        </a>
+      </figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <h2>Przykład z aplikacji mobilnej</h2>
+    <figure>
+      <img src="img/heur5-mobile.png" alt="Okno potwierdzenia usunięcia w Androidzie">
+      <figcaption>
+        Okno potwierdzenia przed usunięciem chroni użytkownika przed przypadkowym skasowaniem danych.
+        To przykład zapobiegania poważnym błędom.
+        <br>
+        Źródło:
+        <a href="https://stackoverflow.com/questions/60478144/android-how-to-update-parent-alertdialog-from-a-child-alertdialog" target="_blank">
+          Stack Overflow – Android AlertDialog
+        </a>
+      </figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <a class="card" href="index.html">← Powrót do strony głównej</a>
+  </section>
+</main>
+
+<footer>
+  <p>Mini-wiki o heurystykach Jakoba Nielsena</p>
+</footer>
+</body>
+</html>
